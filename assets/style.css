@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --text-color: #426ca6;
+  --background-color: beige;
+  --accent-color: #6fd275;
+}
+body {
+  font-family: helvetica, Arial, sans-serif;
+  background-color: var(--background-color);
+}
+
+/*Header Styling*/
+header {
+  background-size: cover;
+  display: flex;
+  flex-wrap: flex;
+  justify-content: space-between;
+  padding: 20px 35px;
+  /*position: -webkit-sticky;
+  position: sticky;*/
+  top: 0;
+}
+
+header h1 {
+  color: var(--text-color);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin: 0;
+}
+header a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul li a {
+  padding: 10px 15px;
+  font-weight: lighter;
+  font-size: 1.5vw;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header nav ul li a:hover {
+  background: var(--accent-color);
+  border-radius: 15px;
+  text-shadow: none;
+}
+
+/*Banner Styling*/
+
+/*About Me Styling*/
+.info {
+  text-align: left;
+  color: var(--text-color);
+  padding: 20px;
+}
+
+.info h2 {
+  color: var(--text-color);
+}
+
+.info li {
+  list-style: none;
+}
+
+/*My Work Styling*/
+/*Update after placeholder images are removed*/
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.flex-container > div {
+  margin: 10px;
+  padding: 20px;
+}
+
+#application-1 {
+  margin: 20px;
+  padding: 40px;
+}
+
+.applications h2 {
+  color: var(--text-color);
+  padding: 20px;
+}
+
+/*Contact Me Section*/
+
+.contact-info ul li {
+  display: flex;
+  flex-wrap: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
