@@ -76,36 +76,47 @@ header nav ul li a:hover {
 /*My Work Styling*/
 /*Update after placeholder images are removed*/
 
-.flex-container {
+.applications {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   margin: 0 auto;
+  width: 100%;
 }
 
-.flex-container > div {
-  margin: 10px;
-  padding: 20px;
-}
-
-#application-1 {
+.application {
   margin: 20px;
-  padding: 40px;
+  background: var(--background-color);
+  color: var(--text-color);
+  flex: 1;
 }
 
-.applications h2 {
+/*Application 1 Image*/
+.application-1 img{
+  width: 80%;
+}
+
+/*Apps 2-5*/
+.application img {
+  width: 100%;
+}
+
+.section-title {
   color: var(--text-color);
   padding: 20px;
 }
 
 /*Contact Me Section*/
+.contact-info {
+  display: flex;
+}
+.contact-info h2 ul li a {
+  text-decoration: none;
+  color: var(--text-color);
+}
 
 .contact-info ul li {
-  display: flex;
-  flex-wrap: flex;
   list-style: none;
   justify-content: space-between;
   align-items: center;
-  
 }
-
