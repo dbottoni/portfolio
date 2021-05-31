@@ -1,12 +1,16 @@
+/* Color Palette
+https://www.schemecolor.com/professional-blue-and-grey-color-scheme.php*/
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 :root {
-  --text-color: #426ca6;
+  --text-color: #20368f;
   --background-color: beige;
-  --accent-color: #6fd275;
+  --accent-color: #000b4f;
+  --section-color: #829cd0;
 }
 body {
   font-family: helvetica, Arial, sans-serif;
@@ -16,8 +20,9 @@ body {
 /*Header Styling*/
 header {
   background-size: cover;
+  background-color: var(--section-color);
   display: flex;
-  flex-wrap: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   padding: 20px 35px;
   /*position: -webkit-sticky;
@@ -52,8 +57,23 @@ header nav ul li a {
 
 header nav ul li a:hover {
   background: var(--accent-color);
+  color: white;
   border-radius: 15px;
   text-shadow: none;
+}
+
+footer {
+  display: block;
+  background-color: var(--section-color);
+  padding: 20px 35px;
+}
+footer p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  text-align: center;
 }
 
 /*Banner Styling*/
@@ -82,21 +102,41 @@ header nav ul li a:hover {
   justify-content: space-around;
   margin: 0 auto;
   width: 100%;
+  position: relative;
+  color: white;
+}
+.applications h3 p {
+  vertical-align: bottom;
 }
 
 .application {
-  margin: 20px;
+  margin: 30px;
   background: var(--background-color);
-  color: var(--text-color);
-  flex: 1;
+  color: white;
+  display: block;
+  position: relative;
 }
 
 /*Application 1 Image*/
-.application-1 img{
-  width: 80%;
+.application-1 {
+  display: block;
+  bottom: 10px;
+  left: 10px;
+  border: 3px solid;
+}
+.application-1 img {
+  width: 100%;
 }
 
 /*Apps 2-5*/
+.app-description {
+  display: block;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  border: 3px solid;
+}
+
 .application img {
   width: 100%;
 }
@@ -104,19 +144,7 @@ header nav ul li a:hover {
 .section-title {
   color: var(--text-color);
   padding: 20px;
+  float:left;
 }
 
 /*Contact Me Section*/
-.contact-info {
-  display: flex;
-}
-.contact-info h2 ul li a {
-  text-decoration: none;
-  color: var(--text-color);
-}
-
-.contact-info ul li {
-  list-style: none;
-  justify-content: space-between;
-  align-items: center;
-}
