@@ -32,12 +32,17 @@ header {
 
 header h1 {
   color: var(--text-color);
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   margin: 0;
 }
 header a {
   text-decoration: none;
   color: var(--text-color);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#header-p {
+  margin-bottom: 100px;
+  margin-top: -60px;
 }
 
 header nav ul {
@@ -89,7 +94,6 @@ footer p {
   text-align: left;
   margin-left: 175px;
   margin-right: 50px;
-
 }
 /*My Work Styling*/
 /*Update after placeholder images are removed*/
@@ -108,6 +112,18 @@ footer p {
   vertical-align: bottom;
 }
 
+.run-buddy {
+  margin-left: 200px;
+}
+
+.run-buddy img {
+  width: 80%;
+}
+
+.run-buddy:hover {
+  opacity: 80%;
+}
+
 .application {
   margin: auto;
   background: var(--background-color);
@@ -117,6 +133,10 @@ footer p {
 
 .application img {
   width: 80%;
+}
+
+.application:hover {
+  opacity: 80%;
 }
 
 .app-description {
@@ -134,4 +154,4 @@ footer p {
   border-right: 2px solid;
 }
 
-/*Contact Me Section*/
+/*Add media queries*/
