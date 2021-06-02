@@ -74,6 +74,7 @@ footer p {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   text-align: center;
+  margin-top: -30px;
 }
 
 /*Banner Styling*/
@@ -85,38 +86,37 @@ footer p {
 }
 
 .info p {
-  text-align: right;
+  text-align: left;
+  margin-left: 175px;
+  margin-right: 50px;
+
 }
 /*My Work Styling*/
 /*Update after placeholder images are removed*/
 
 .applications {
-  display: flex;
+  display: inline-flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  margin-top: 15px;
-  margin-right: -15px;
-  margin-left: -15px;
+  justify-content: space-between;
+  margin: auto;
   width: 80%;
   position: relative;
   color: white;
 }
+
 .applications h3 p {
   vertical-align: bottom;
 }
 
 .application {
-  margin-right: -15px;
-  margin-left: -15px;
-  margin-bottom: 15px;
+  margin: auto;
   background: var(--background-color);
   color: white;
-  display: block;
   position: relative;
 }
 
 .application img {
-  width: 100%;
+  width: 80%;
 }
 
 .app-description {
@@ -130,12 +130,8 @@ footer p {
 .section-title {
   color: var(--text-color);
   padding: 20px;
-  float:left;
+  display: inline-flex;
   border-right: 2px solid;
 }
-/*
-#application-1 img {
- width:80%;
-}*/
 
 /*Contact Me Section*/
