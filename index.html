@@ -1,108 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dana Bottoni Portfolio</title>
-    <link rel="stylesheet" href="./assets/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  <link rel="stylesheet" href="./assets/style.css">
+  <title>Dana Bottoni | Front-end Developer</title>
 </head>
-
-<!--Nav Bar-->
 <body>
-    <header>
-        <h1>Dana Bottoni</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#about-me">About Me</a>
-                </li>
-                <li>
-                    <a href="#my-work">My Work</a>
-                </li>
-                <li>
-                    <a href="#contact-me">Contact Me</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <!--Banner Image-->
-    <!-- About Me Section-->
-    <section id="about-me" class="info">
-        <h2 class="section-title">About Me</h2>
-            <p id="header-p">
-                The path that has lead me to pursuing web development was born from my diversified work and educational experiences.
-                I hold two bachelor's degrees in Biological Sciences (East Stroudsburg University '14) and Accounting (Penn State University '21)
-                My current position as an ERP Technician exposed me to the technical side of application development and immediately I was hooked.
-                During the time I was furloughed in 2020, I began taking courses to learn more about web development and coding. 
-                It was then that I knew it was time to change my career path for good, and the search for higher education began.
-            </p>
-    </section>
-
-    <!--My Work Section-->
-        <article class="applications">
-            <div>
-                <h2 class="section-title">My Work</h2>
-            </div>
-            <div class="run-buddy">
-                <a href="https://dbottoni.github.io/refactor-html-css/" target="_blank" alt="run-buddy-link">
-                    <img src="./assets/images/application-1.png" alt="run-buddy-header">
-                </a>
-                <div class="app-description">
-                    <h3 class="application-name">Run Buddy</h3>
-                    <p>This is the first application I built</p>
-                </div>
-            </div>
-            <div class="application" id="application-2">
-                <a href="https://dbottoni.github.io/weather-app/" target= "_blank" alt="weather-app-link">
-                    <img src="./assets/images/weather-app-img.jpg" alt="">
-                </a>
-                <div class="app-description">
-                    <h3 class="application-name">Weather App</h3>
-                    <p>This is a weather app</p>
-                </div>
-            </div>
-            <div class="application" id="application-3">
-                <a href="https://dbottoni.github.io/project1/" target="_blank" alt="project-one-link">
-                <img src="./assets/images/project-one-img.jpg" alt="">
-                <div class="app-description">
-                    <h3 class="application-name">Application 3</h3>
-                    <p>This is a mobile app</p>
-                </div>
-            </div>
-            <div class="application">
-                <img src="./assets/images/placeholder-image.png" alt="">
-                <div class="app-description">
-                    <h3 class="application-name">Application 4</h3>
-                    <p>This is an interactive calculator</p>
-                </div>
-            </div>
-            <div class="application">
-                <img src="./assets/images/placeholder-image.png" alt="">
-                <div class="app-description">
-                    <h3 class="application-name">Application 5</h3>
-                    <p>This is another application</p>
-                </div>
-            </div>
-        </article>
+  
+<nav>
+  <div class="container"> 
+    <div class="navbar-menu">
+      <div class="navbar-start">Hello</div>
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <a class= "button" href="./contact.html">Reach Out</a>
+        </div>
+      </div>
+    </div>
+  
+  </div>
+</nav>
 
 
-    <!-- Contact Me/ Footer Section-->
-    <footer id="contact-me" class="contact-info">
-        <h3 class="section-title">Contact Me</h3>
-            <p>
-                <a href="tel+19734591452"> Phone </a>
-                &nbsp | &nbsp;
-                <a href="mailto:danabottoni@gmail.com"> Email</a>
-                &nbsp | &nbsp;
-                <a href="https://github.com/dbottoni">GitHub</a>
-                &nbsp | &nbsp;
-                <a href="https://www.linkedin.com/in/dana-bottoni-a982609b/">LinkedIn</a>
-                &nbsp | &nbsp;
-                <a href="#">Portfolio</a>
-            </p>
-    </footer>
+<section class="sections projects is-medium is-white had-text-centered">
+  <div class="container is-narrow">
+    <h1 class= "title is-spaced is-size-3-desktop is-size-4-mobile">My Work</h1>
+    <h2 class="subtitle  is-spaced is-size-3-desktop is-size-4-mobile">
+      Here are a few of my recent projects. Want to see more? <a href="mailto:danabottoni@gmail.com">Email me.</a>
+    </h2>
+    <div class="project grid">
+      <div class="columns is-multiline is-mobile">
+        <div class= "column is-12-mobile is-half-tablet is-one-third-desktop">
+          <figure class="image is-3by2">
+            <img class ="project-thumbnail" src="./assets/images/nightcap-events-thumb.jpg" alt="nightcap-events-thumbnail">
+            <figcaption>
+              <h1 class= "title is-size-5 is-size-4-widescreen">EventBrite Spinoff</h1>
+              <a class="button is-primary is-outlined is-rounded" href="https://dbottoni.github.io/project1/" target="_blank">
+                <span>Visit Website</span>
+                <span class="icon"></span>
+            
+              </a>
+            </figcaption>
+            <div class="overlay"></div>
+          </figure>
+        </div>
+        <div class="column is-12-mobile is-half-tablet is-one-third-desktop">
+          <figure class="image is-3by2">
+            <img class="project-thumbnail" src="./assets/images/workday-scheduler-thumb.jpg" alt="workday-scheduler-thumbnail">
+            <figcaption>
+              <h1 class="title is-size-5 is-size-4-widescreen">Workday Scheduler</h1>
+              <a class="button is-primary is-outlined is-rounded" href="https://dbottoni.github.io/workday-scheduler/" target="_blank">
+                <span>Visit Website</span>
+                <span class="icon"></span>
+        
+              </a>
+            </figcaption>
+            <div class="overlay"></div>
+          </figure>
+        </div>
+        <div class="column is-12-mobile is-half-tablet is-one-third-desktop">
+          <figure class="image is-3by2">
+            <img class="project-thumbnail" src="./assets/images/professional-readme-thumb.jpg" alt="professional-readme-thumbnail">
+            <figcaption>
+              <h1 class="title is-size-5 is-size-4-widescreen">Professional ReadMe Generator</h1>
+              <a class="button is-primary is-outlined is-rounded" href="https://dbottoni.github.io/professional-readme2/" target="_blank">
+                <span>Visit Website</span>
+                <span class="icon"></span>
+        
+              </a>
+            </figcaption>
+            <div class="overlay"></div>
+          </figure>
+        </div>
+        <div class="column is-12-mobile is-half-tablet is-one-third-desktop">
+          <figure class="image is-3by2">
+            <img class="project-thumbnail" src="./assets/images//team-profile-thumb.jpg" alt="nightcap-events-thumbnail">
+            <figcaption>
+              <h1 class="title is-size-5 is-size-4-widescreen">Team Profile Generator</h1>
+              <a class="button is-primary is-outlined is-rounded" href="https://github.com/dbottoni/team-profile-generator" target="_blank">
+                <span>Visit GitHub Repo</span>
+                <span class="icon"></span>
+        
+              </a>
+            </figcaption>
+            <div class="overlay"></div>
+          </figure>
+        </div>
+        <div class="column is-12-mobile is-half-tablet is-one-third-desktop">
+          <figure class="image is-3by2">
+            <img class="project-thumbnail" src="./assets/images/password-gen-thumb.jpg" alt="password-gen-thumbnail">
+            <figcaption>
+              <h1 class="title is-size-5 is-size-4-widescreen">Password Generator</h1>
+              <a class="button is-primary is-outlined is-rounded" href="https://dbottoni.github.io/friendly-parakeet/" target="_blank">
+                <span>Visit Website</span>
+                <span class="icon"></span>
+              </a>
+            </figcaption>
+            <div class="overlay"></div>
+          </figure>
+        </div>
+        <div class="column is-12-mobile is-half-tablet is-one-third-desktop">
+          <figure class="image is-3by2">
+            <img class="project-thumbnail" src="./assets/images/run-buddy-thumb.jpg" alt="nightcap-events-thumbnail">
+            <figcaption>
+              <h1 class="title is-size-5 is-size-4-widescreen">Run Buddy</h1>
+              <a class="button is-primary is-outlined is-rounded" href="https://dbottoni.github.io/run-buddy/" target="_blank">
+                <span>Visit Website</span>
+                <span class="icon"></span>
+        
+              </a>
+            </figcaption>
+            <div class="overlay"></div>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </div> 
+</section>
+
+
 </body>
-
 </html>
