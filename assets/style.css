@@ -1,9 +1,50 @@
+body {
+  background-color: whitesmoke;
+}
 
+img {
+  border-radius: 15px;
+  height: auto;
+  max-width: 100%;
+  display: flex;
+}
+
+.button:hover {
+  background-color: #a5c9ff;
+  transition: 0.2s ease-in-out;
+}
+
+.navbar {
+  background-color: whitesmoke;
+  box-shadow: none;
+  min-height: 3.25rem;
+  padding: 1.2rem 0;
+  position: relative;
+  z-index: auto;
+}
+
+.navbar button {
+  border: none;
+}
+
+.photo {
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
 
 .projects .project-grid figure {
-  position: relative;
-  overflow: hidden;
   border-radius: 12px;
+  overflow: hidden;
+  padding: 2rem 0 4rem;
+  position: relative;
+}
+
+.projects .project-grid figure img.project-thumbnail {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
 }
 
 .columns .is-multiline {
@@ -20,15 +61,38 @@
   margin-bottom: -0.75rem;
 }
 
+.column {
+  display: block;
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding: 0.75rem;
+}
+
 .img.is-3by2 {
   padding-top: 66%;
+}
+
+a .button {
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+}
+
+.button {
+  border-color: #dbdbdb;
+  border-width: 1px;
+  cursor: pointer;
+  justify-content: center;
+  -webkit-box-pack: center;
+  text-align: center;
 }
 
 .projects
   .project-grid
   figure
   figcaption
-  a.button.is-primary.is-outlined.is-rounded {
+  a
+  .button.is-primary.is-outlined.is-rounded {
   margin: 0 auto;
   font-size: 18px;
   padding: 1.2rem;
@@ -36,8 +100,9 @@
   border-width: 2px;
   color: white;
 }
+
 .button .is-primary .is-outlined {
-  background-color: transparent;
+  background-color: whitesmoke;
   border-color: #7510f7;
   color: #7510f7;
 }
