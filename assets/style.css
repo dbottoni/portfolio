@@ -4,19 +4,24 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.hero {
-  padding-top: 100px;
-}
-
-.header {
-  padding-top: 150px;
-}
-
 img {
   border-radius: 15px;
   height: auto;
   max-width: 100%;
   display: flex;
+}
+
+ul li {
+  list-style: none;
+}
+
+.hero {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.header {
+  padding-top: 150px;
 }
 
 .button:hover {
